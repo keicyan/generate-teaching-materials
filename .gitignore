@@ -1,0 +1,20 @@
+# 生成物（init.py / generate.py が書き出すファイル）
+config.json
+generate.py
+
+# 生成された教材
+curriculum/*/
+!curriculum/.gitkeep
+
+# 実行ログ・コスト記録
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
